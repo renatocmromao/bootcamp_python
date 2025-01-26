@@ -136,13 +136,68 @@ print(f'O método para concatenar as strings é utilizando o operador [+]. Exemp
 print(f'A frase {frase1}, concatenada a frase {frase2} será a frase {juntos}\n')
 
 
-
-
 # BOOLEANOS (bool)
-
+print('BOOLEANOS (bol)')
+print('Operações Lógicas')
 #Operações Lógicas
 # and   ('E' lógico) 
+valor1 = True
+valor2 = True
+print('valor1 = True')
+print('valor2 = True')
+print('valor1 AND valor2')
+print(f'Resultado será {valor1 and valor2}')
+print('===================================')
+valor1 = True
+valor2 = False
+print('valor1 = True')
+print('valor2 = False')
+print('valor1 AND valor2')
+print(f'Resultado será {valor1 and valor2}\n')
+print('No operador lógico AND, quando algum valor for FALSE, o resultado será FALSE. Somente quando ambos forem TRUE, o resultado será TRUE.')
+
 # or    ('OU' lógico)
+valor1 = True
+valor2 = True
+print('valor1 = True')
+print('valor2 = True')
+print('valor1 OR valor2')
+print(f'Resultado será {valor1 or valor2}')
+print('===================================')
+valor1 = True
+valor2 = False
+print('valor1 = True')
+print('valor2 = False')
+print('valor1 OR valor2')
+print(f'Resultado será {valor1 or valor2}\n')
+print('No operador lógico OR, quando algum valor for TRUE, o resultado será TRUE. Somente quando ambos forem FALSE, o resultado será FALSE.')
+
 # not   ('NÃO' lógico)
+
+valor1 = True
+valor2 = False
+print('valor1 = True')
+print('valor2 = False')
+print('not valor1')
+print(f'O resultado será {not valor1}')
+print('not valor2')
+print(f'O resultado será {not valor2}')
+print('No operador lógico NOT, irá inverter o valor lógico de um operando.')
+
 # ==    (Igualdade)
+valor1 = False
+valor2 = False
+print('valor1 = False')
+print('valor2 = False')
+print('valor1 == valor2')
+print(f'O resultado será {valor1 == valor2}')
+print('No operador lógico de IGUALDADE, será TRUE quandos os valores forem IGUAIS.')
+
 # !=    (Diferença)
+valor1 = True
+valor2 = False
+print('valor1 = True')
+print('valor2 = False')
+print('valor1 != valor2')
+print(f'O resultado será {valor1 != valor2}')
+print('No operador lógico de DIFERENÇA, será TRUE quandos os valores forem DIFERENTES.')
