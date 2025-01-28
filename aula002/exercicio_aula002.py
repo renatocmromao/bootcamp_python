@@ -1,4 +1,3 @@
-'''
 # INT
 
 # 1) Escreva um programa que some dois números inteiros inseridos pelo usuário.
@@ -175,7 +174,7 @@ val1 = input('Digite um número, para o primeiro valor: ')
 val_2 = input('Digite um número, para o segundo valor: ')
 print(f'O primeiro valor é {val1} e o segundo valor é {val_2}.')
 print(f'Eles são iguais: {val1 == val_2}')
-'''
+
 
 # 20) Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 #print('19) Faça um programa que compare se dois números fornecidos pelo usuário são iguais.')
@@ -185,8 +184,3 @@ val1 = input('Digite um número, para o primeiro valor: ')
 val_2 = input('Digite um número, para o segundo valor: ')
 print(f'O primeiro valor é {val1} e o segundo valor é {val_2}.')
 print(f'Eles são diferentes: {val1 != val_2}')
-#
-#
-#
-#
-#
