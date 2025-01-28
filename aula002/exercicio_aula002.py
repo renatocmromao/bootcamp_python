@@ -1,3 +1,5 @@
+import math  #Importado a biblioteca Math para buscar o módulo para calcula PI no exercício 10.
+
 # INT
 
 # 1) Escreva um programa que some dois números inteiros inseridos pelo usuário.
@@ -85,8 +87,8 @@ print('10) Escreva um programa que calcule a área de círculo, recebendo o raio
 print('RESPOSTA:')
 print('*** Programa CALCULAR A ÁREA DE UM CÍRCULO***')
 raio = float(input('Insira o valor do RAIO: '))
-area_circ = (raio ** 2) * 3.14
-print(f'Com o raio medindo {raio}, o valor da área do círculo será de {area_circ}.\n')
+area_circ = (raio ** 2) * math.pi
+print(f'Com o raio medindo {raio}, o valor da área do círculo será de {area_circ:.2f}.\n')
 
 
 # STRING
@@ -125,6 +127,10 @@ print('*** Programa PARA RETIRAR SEPARADOR ***')
 valor = input('Insira uma data (NO FORMATO DD/MM/AAAA): ')
 print(f'A data é: {valor}.\n')
 print(f'Retirando o separador "/", teremos os seguintes valores: {valor.split("/")}.\n')
+# OBS: O reseultado da função split é uma lista. E para chamar cada elemento, basta utilizarmos o índice de cada um.
+print(f'O dia é {valor.split("/")[0]}')
+print(f'O mês é {valor.split("/")[1]}')
+print(f'O ano é {valor.split("/")[2]}')
 
 
 # 15) Escreva um programa que concatene duas strings fornecidas pelo usuário.
